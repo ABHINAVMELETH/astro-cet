@@ -1,7 +1,7 @@
 import React from 'react';
 
 const teamMembers = [
-  { name: 'CAREN', role: 'COO', imgSrc: '/images/astroteam/current/content/ANAMIKA S.jpg', linkedIn: 'https://www.linkedin.com/in/naveenvarma', email: 'naveen@example.com' },
+  { name: 'CAREN', role: 'COO', imgSrc: '/images/astroteam/prev/execom/caren.jpg', linkedIn: 'https://www.linkedin.com/in/naveenvarma', email: 'naveen@example.com' },
   { name: 'HARI', role: 'CEO', imgSrc: '/images/astroteam/prev/execom/hari.jpg', linkedIn: 'https://www.linkedin.com/in/saurav', email: 'saurav@example.com' },
   { name: 'AKSHAY SANTHOSH', role: 'CMO', imgSrc: '/images/astroteam/prev/execom/akshay.jpg', linkedIn: 'https://www.linkedin.com/in/fidhav', email: 'fidha@example.com' },
   { name: 'JAVAD', role: 'CFO', imgSrc: '/images/astroteam/prev/execom/javad.jpg', linkedIn: 'https://www.linkedin.com/in/abhiramips', email: 'abhirami@example.com' },

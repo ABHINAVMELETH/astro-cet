@@ -6,24 +6,29 @@ import "slick-carousel/slick/slick-theme.css";
 const Upcoming = () => {
   const events = [
     {
-      title: "test222",
+      title: "Astrophotography workshop",
       description: "It is a great way to promote the space deterioration method to check the redemption and ask for promotion.",
-      imageUrl: "/images/yip.png", // Ensure consistency
+      imageUrl: "/images/pastevents/astrophotographwork.jpg", // Ensure consistency
     },
     {
-      title: "Space Telecomping Workshop",
+      title: "Solar probing Workshop",
       description: "It is a great way to promote the space deterioration method to check the redemption and ask for promotion.",
-      imageUrl: "/images/yip.png",
+      imageUrl: "/images/pastevents/solarprobing.jpg",
     },
     {
       title: "Rocket Science Basics",
       description: "An introductory workshop on the fundamentals of rocket science and space exploration.",
-      imageUrl: "/images/yip.png",
+      imageUrl: "/images/pastevents/GBFKoutreach.jpg",
     },
     {
-      title: "Astrophysics Seminar",
+      title: "AI/ML workshop",
       description: "Join us for an in-depth seminar on the latest discoveries in astrophysics and space technology.",
-      imageUrl: "/images/yip.png",
+      imageUrl: "/images/pastevents/workhopai.jpg",
+    },
+    {
+      title: "AI/ML workshop",
+      description: "Join us for an in-depth seminar on the latest discoveries in astrophysics and space technology.",
+      imageUrl: "/images/pastevents/workhopai.jpg",
     },
   ];
 
@@ -118,23 +123,23 @@ const Upcoming = () => {
           <Slider {...sliderSettings}>
             {events.map((event, index) => (
               <article
-                key={index}
-                className="group relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto mt-24"
-              >
-                <img
-                  src={event.imageUrl}
-                  alt={event.title}
-                  className="absolute inset-0 h-full w-full object-cover transition-opacity duration-300 group-hover:opacity-70"
-                  loading="lazy"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 transition-opacity duration-300 group-hover:opacity-80"></div>
-                <h3 className="z-10 mt-3 text-3xl font-bold text-white transition-colors duration-300 group-hover:text-yellow-300 group-hover:text-shadow-lg">
-                  {event.title}
-                </h3>
-                <div className="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300 transition-colors duration-300 group-hover:text-gray-100 group-hover:text-shadow-lg">
-                  {event.description}
-                </div>
-              </article>
+              key={index}
+              className="group relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto mt-24"
+            >
+              <img
+                src={event.imageUrl}
+                alt={event.title}
+                className="absolute inset-0 h-full w-full object-cover transition-opacity duration-300 group-hover:opacity-70"
+                loading="lazy"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 transition-opacity duration-300 group-hover:opacity-80"></div>
+              <h3 className="z-10 mt-3 text-3xl font-bold text-black transition-colors duration-300 group-hover:text-yellow-300 group-hover:text-shadow-lg">
+                {event.title}
+              </h3>
+              <div className="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-black transition-colors duration-300 group-hover:text-gray-100 group-hover:text-shadow-lg">
+                {event.description}
+              </div>
+            </article>
             ))}
           </Slider>
         )}
