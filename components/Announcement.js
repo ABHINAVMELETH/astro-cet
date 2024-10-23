@@ -1,12 +1,29 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Announcement = () => {
-  const [announcements, setAnnouncements] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const announcements = [
+    {
+      id: 1,
+      title: "testfrobntend",
+      image: "/images/frontpage/announcements/announcement1.jpg",
+      description: "Join our upcoming event to explore the wonders of the universe, from stars to galaxies and beyond.",
+    },
+    {
+      id: 2,
+      title: "Mission to Mars",
+      image: "/images/frontpage/announcements/announcement1.jpg",
+      description: "Learn about our mission to colonize Mars and how you can be part of the next big leap for humanity.",
+    },
+    {
+      id: 3,
+      title: "Astronomy Night",
+      image: "/images/frontpage/announcements/announcement1.jpg",
+      description: "Join us for a night under the stars as we explore constellations and observe celestial events.",
+    },
+  ];
 
   const sliderSettings = {
     dots: true,
@@ -16,25 +33,6 @@ const Announcement = () => {
     slidesToScroll: 1,
     arrows: false,  // Disable arrows
   };
-
-  useEffect(() => {
-    const fetchAnnouncements = async () => {
-      try {
-        const response = await fetch("http://localhost:5000/api/announcements");
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        const data = await response.json();
-        setAnnouncements(data);
-      } catch (error) {
-        setError(error.message);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchAnnouncements();
-  }, []);
 
   return (
     <section className="text-white py-12 z-10 relative">
@@ -47,9 +45,7 @@ const Announcement = () => {
 
       <div className="slider-container max-w-screen-lg mx-auto md:mt-10">
         <Slider {...sliderSettings}>
-          {loading && <p>Loading...</p>}
-          {error && <p>Error: {error}</p>}
-          {!loading && announcements.map((announcement) => (
+          {announcements.map((announcement) => (
             <div key={announcement.id}>
               <div className="max-w-sm w-full lg:max-w-full lg:flex h-96 shadow-lg rounded-lg overflow-hidden">
                 {/* Image Section */}
@@ -72,8 +68,6 @@ const Announcement = () => {
                     <p className="text-gray-300 text-lg font-quicksand tracking-wide italic">
                       {announcement.description}
                     </p>
-                  </div>
-                  <div className="flex items-center">
                   </div>
                 </div>
               </div>
