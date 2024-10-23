@@ -3,15 +3,15 @@ import React from 'react';
 const teamMembers = [
   { name: 'CAREN', role: 'COO', imgSrc: '/images/astroteam/current/content/ANAMIKA S.jpg', linkedIn: 'https://www.linkedin.com/in/naveenvarma', email: 'naveen@example.com' },
   { name: 'HARI', role: 'CEO', imgSrc: '/images/astroteam/prev/execom/hari.jpg', linkedIn: 'https://www.linkedin.com/in/saurav', email: 'saurav@example.com' },
-  { name: 'AKSHAY SANTHOSH', role: 'CMO', imgSrc: 'a/images/astroteam/prev/execom/akshay.jpg', linkedIn: 'https://www.linkedin.com/in/fidhav', email: 'fidha@example.com' },
+  { name: 'AKSHAY SANTHOSH', role: 'CMO', imgSrc: '/images/astroteam/prev/execom/akshay.jpg', linkedIn: 'https://www.linkedin.com/in/fidhav', email: 'fidha@example.com' },
   { name: 'JAVAD', role: 'CFO', imgSrc: '/images/astroteam/prev/execom/javad.jpg', linkedIn: 'https://www.linkedin.com/in/abhiramips', email: 'abhirami@example.com' },
   { name: 'SAURAV', role: 'Content Head', imgSrc: '/images/astroteam/prev/execom/SAURAV.jpg', linkedIn: 'https://www.linkedin.com/in/abhiramips', email: 'abhirami@example.com' },
-  { name: 'LAKSHMI', role: 'Media Lead', imgSrc: '/images/astroteam/prev/execom/lakshmi.jpg', email: 'durga@example.com' },
+  { name: 'LAKSHMI', role: 'Media Lead', imgSrc: '/images/astroteam/prev/execom/lekshmi.jpg', email: 'durga@example.com' },
   { name: 'RANJANA', role: 'Web Lead', imgSrc: '/images/astroteam/prev/execom/ranjana.jpg', linkedIn: 'https://www.linkedin.com/in/hank', email: 'hank@example.com' },
   { name: 'FATHIMA NIZAR', role: 'Program Officer', imgSrc: '/images/astroteam/prev/execom/fathima.jpg', linkedIn: 'https://www.linkedin.com/in/ivy', email: 'ivy@example.com' },
-  { name: 'NAVEEN', role: 'Program Officer', imgSrc: '/images/SELFPHOTO.jpg', linkedIn: 'https://www.linkedin.com/in/ivy', email: 'ivy@example.com' },
-  { name: 'FIDHA', role: 'Program Officer', imgSrc: '/images/SELFPHOTO.jpg', linkedIn: 'https://www.linkedin.com/in/ivy', email: 'ivy@example.com' },
-  { name: 'ABHIRAMI', role: 'Program Officer', imgSrc: '/images/SELFPHOTO.jpg', linkedIn: 'https://www.linkedin.com/in/ivy', email: 'ivy@example.com' },
+  { name: 'NAVEEN', role: 'Program Officer', imgSrc: 'images/astroteam/prev/execom/naveen.jpg', linkedIn: 'https://www.linkedin.com/in/ivy', email: 'ivy@example.com' },
+  { name: 'FIDHA', role: 'Program Officer', imgSrc: 'images/astroteam/prev/execom/FIDHA V.jpg', linkedIn: 'https://www.linkedin.com/in/ivy', email: 'ivy@example.com' },
+  { name: 'ABHIRAMI', role: 'Program Officer', imgSrc: 'images/astroteam/prev/execom/ABHIRAMI.jpg', linkedIn: 'https://www.linkedin.com/in/ivy', email: 'ivy@example.com' },
 ];
 
 const Previousexecom = () => {
