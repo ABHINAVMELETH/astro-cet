@@ -1,11 +1,33 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Upcoming = () => {
-  const [eventCards, setEventCards] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const events = [
+    {
+      title: "test222",
+      description: "It is a great way to promote the space deterioration method to check the redemption and ask for promotion.",
+      imageUrl: "/images/yip.png", // Ensure consistency
+    },
+    {
+      title: "Space Telecomping Workshop",
+      description: "It is a great way to promote the space deterioration method to check the redemption and ask for promotion.",
+      imageUrl: "/images/yip.png",
+    },
+    {
+      title: "Rocket Science Basics",
+      description: "An introductory workshop on the fundamentals of rocket science and space exploration.",
+      imageUrl: "/images/yip.png",
+    },
+    {
+      title: "Astrophysics Seminar",
+      description: "Join us for an in-depth seminar on the latest discoveries in astrophysics and space technology.",
+      imageUrl: "/images/yip.png",
+    },
+  ];
+
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
   const sliderSettings = {
@@ -30,25 +52,6 @@ const Upcoming = () => {
       },
     ],
   };
-
-  useEffect(() => {
-    const fetchEvents = async () => {
-      try {
-        const response = await fetch("http://localhost:5000/api/upcoming");
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        const data = await response.json();
-        setEventCards(data);
-      } catch (error) {
-        setError(error.message);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchEvents();
-  }, []);
 
   return (
     <section className="bg-transparent z-10 relative">
@@ -113,7 +116,7 @@ const Upcoming = () => {
         {error && <p className="text-red-500">Error: {error}</p>}
         {!loading && !error && (
           <Slider {...sliderSettings}>
-            {eventCards.map((event, index) => (
+            {events.map((event, index) => (
               <article
                 key={index}
                 className="group relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto mt-24"
@@ -125,13 +128,12 @@ const Upcoming = () => {
                   loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 transition-opacity duration-300 group-hover:opacity-80"></div>
-<h3 className="z-10 mt-3 text-3xl font-bold text-white transition-colors duration-300 group-hover:text-yellow-300 group-hover:text-shadow-lg">
-  {event.title}
-</h3>
-<div className="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300 transition-colors duration-300 group-hover:text-gray-100 group-hover:text-shadow-lg">
-  {event.description}
-</div>
-
+                <h3 className="z-10 mt-3 text-3xl font-bold text-white transition-colors duration-300 group-hover:text-yellow-300 group-hover:text-shadow-lg">
+                  {event.title}
+                </h3>
+                <div className="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300 transition-colors duration-300 group-hover:text-gray-100 group-hover:text-shadow-lg">
+                  {event.description}
+                </div>
               </article>
             ))}
           </Slider>
