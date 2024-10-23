@@ -25,7 +25,7 @@ const blogs = [
 const BlogGrid = () => {
   return (
     <div className="text-white min-h-screen flex flex-col items-center">
-      <h1 className="text-5xl font-bold mt-10 astro-title">Blog Posts</h1>
+      <h1 className="md:text-4xl text-10xl font-bold mt-10 md:mb-10 astro-title">Blog Posts</h1>
       
       {/* Blog Post Grid */}
 

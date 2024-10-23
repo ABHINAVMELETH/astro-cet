@@ -7,21 +7,15 @@ const Announcement = () => {
   const announcements = [
     {
       id: 1,
-      title: "testfrobntend",
-      image: "/images/frontpage/announcements/announcement1.jpg",
-      description: "Join our upcoming event to explore the wonders of the universe, from stars to galaxies and beyond.",
+      title: "Website Launch",
+      image: "/images/announcements/weblaunch.jpeg",
+      description: "We are excited to announce the launch of the new AstroCET website! This online platform is designed to be your go-to resource for all things astronomy, providing easy access to our events, resources, and community activities.",
     },
     {
       id: 2,
-      title: "Mission to Mars",
-      image: "/images/frontpage/announcements/announcement1.jpg",
-      description: "Learn about our mission to colonize Mars and how you can be part of the next big leap for humanity.",
-    },
-    {
-      id: 3,
-      title: "Astronomy Night",
-      image: "/images/frontpage/announcements/announcement1.jpg",
-      description: "Join us for a night under the stars as we explore constellations and observe celestial events.",
+      title: "Unveiling Our Technical Team!",
+      image: "/images/announcements/techteam.jpeg",
+      description: "We are excited to announce the formation of our new Technical Team at AstroCET! This dedicated group is focused on advancing our exploration of the cosmos through innovative technology The Technical Team will enhance our projects, develop new tools, conduct research, and create engaging activities for our members and the community.",
     },
   ];
 

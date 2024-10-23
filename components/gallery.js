@@ -19,7 +19,6 @@ const Gallery = () => {
             "/images/gallery/galleryimg6.JPG",
             "/images/gallery/galleryimg7.JPG",
             "/images/gallery/galleyimg8.JPG",
-            "/images/gallery/galleryimg9.JPG",
           ].map((src, index) => (
             <div key={index} className="flex justify-center">
               <img

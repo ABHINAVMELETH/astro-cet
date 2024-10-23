@@ -7,27 +7,22 @@ const Upcoming = () => {
   const events = [
     {
       title: "Astrophotography workshop",
-      description: "It is a great way to promote the space deterioration method to check the redemption and ask for promotion.",
+      description: "On 25 November 2023, ASTRO-CET hosted an astrophotography workshop with CET SHUTTERBUGS and AASTRO KERALA, led by renowned expert Sarath Prabhavu J.",
       imageUrl: "/images/pastevents/astrophotographwork.jpg", // Ensure consistency
     },
     {
       title: "Solar probing Workshop",
-      description: "It is a great way to promote the space deterioration method to check the redemption and ask for promotion.",
+      description: "Expedition Aditya, held on 26 November 2023 in collaboration with Shastra Snehi, focused on solar probing and sunspot viewing, bringing together experts and participants to explore the Sun's dynamics.",
       imageUrl: "/images/pastevents/solarprobing.jpg",
     },
     {
-      title: "Rocket Science Basics",
-      description: "An introductory workshop on the fundamentals of rocket science and space exploration.",
+      title: "GBFK outreach Program",
+      description: "AstroCET's outreach at the ‘Global Science Festival Kerala’ featured Dr. Sarita Vig from IIST, inspiring students to pursue astronomy, followed by a sky-gazing session with the Breakthrough Science Society..",
       imageUrl: "/images/pastevents/GBFKoutreach.jpg",
     },
     {
       title: "AI/ML workshop",
-      description: "Join us for an in-depth seminar on the latest discoveries in astrophysics and space technology.",
-      imageUrl: "/images/pastevents/workhopai.jpg",
-    },
-    {
-      title: "AI/ML workshop",
-      description: "Join us for an in-depth seminar on the latest discoveries in astrophysics and space technology.",
+      description: "Drishti’24 featured a standout AI/ML for Space Exploration workshop by AstroCET and HT Labs India. Over 70 participants learned Python-based data analysis and ML applications in astronomy, with hands-on experience using real astronomical data.",
       imageUrl: "/images/pastevents/workhopai.jpg",
     },
   ];
@@ -129,7 +124,7 @@ const Upcoming = () => {
               <img
                 src={event.imageUrl}
                 alt={event.title}
-                className="absolute inset-0 h-full w-full object-cover transition-opacity duration-300 group-hover:opacity-70"
+                className="absolute inset-0 h-full w-full object-cover transition-opacity duration-300 group-hover:opacity-10"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 transition-opacity duration-300 group-hover:opacity-80"></div>
