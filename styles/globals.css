@@ -1,0 +1,159 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Audiowide&display=swap');
+
+/* Apply font-family globally or create classes */
+.font-orbitron {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.font-audiowide {
+  font-family: 'Audiowide', sans-serif;
+}
+.hover-glow:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
+               0 0 30px rgba(255, 0, 255, 0.8), 
+               0 0 60px rgba(255, 0, 255, 1);
+  transition: all 0.3s ease;
+}
+
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.floating {
+  animation: float 4s ease-in-out infinite;
+}
+
+
+
+
+/* Global Styles */
+body {
+  background-color: #000; /* Black background */
+  font-family: 'Orbitron', sans-serif; /* Futuristic font */
+}
+
+/* Space Background */
+.bg-space {
+  background-image: url('/images/space-background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Card Hover Effects */
+.card:hover {
+  border-color: #1de9b6; /* Teal glow on hover */
+  transform: scale(1.05); /* Slight enlarge effect */
+}
+
+.card {
+  background-color: #1a1a1a; /* Dark background for cards */
+  border: 1px solid #444; /* Soft border */
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2); /* Subtle glow */
+}
+
+/* Title Styling */
+.astro-title2 {
+  color: #fff;
+  text-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
+}
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+
+.astro-title{
+  color:blueviolet;
+}
+.astro-title2{
+  color: yellow;
+  font-size: 30px;
+}
+.glow-effect {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.6), 
+               0 0 15px rgba(255, 0, 255, 0.5), 
+               0 0 30px rgba(255, 0, 255, 0.4);
+}
+
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal, .overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49,49,49,0.8);
+}
+.modal-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+}

@@ -1,0 +1,16 @@
+// Sample response from backend (GET /api/events)
+[
+    {
+      "id": 1,
+      "title": "Space Telecomping Workshop",
+      "description": "It is a great way to promote the space deterioration method to check the redemption and ask for promotion.",
+      "imageUrl": "/images/yip.png"
+    },
+    {
+      "id": 2,
+      "title": "Astronomy 101",
+      "description": "Learn the basics of astronomy and explore the night sky.",
+      "imageUrl": "/images/astro101.png"
+    }
+  ]
+  
