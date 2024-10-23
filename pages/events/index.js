@@ -10,31 +10,13 @@ const Events = ({ events }) => {
       <Background />
       <div className="relative z-10">
         <Navigation />
-        <Eventgrid events={events} /> {}
+        <Eventgrid/> {}
         <Contact />
       </div>
     </div>
   );
 };
 
-export async function getServerSideProps() {
-  try {
-    const res = await fetch('http://localhost:5000/api/events');
-    const events = await res.json();
 
-    return {
-      props: {
-        events,
-      },
-    };
-  } catch (error) {
-    console.error('Error fetching events:', error); // Log any errors
-    return {
-      props: {
-        events: [], // Handle the error case by returning an empty array
-      },
-    };
-  }
-}
 
 export default Events;
