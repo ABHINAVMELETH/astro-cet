@@ -2,7 +2,7 @@ import React from 'react';
 
 const teamMembers = [
   { name: 'NAVEEN VARMA', role: 'Chairperson', imgSrc: '/images/astroteam/current/execom/NAVEEN.jpg', linkedIn: 'https://www.linkedin.com/in/naveen-varma-539193259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', email: 'naveen@example.com' },
-  { name: 'SAURAV', role: 'Vice Chairperson/Tech Lead', imgSrc: '/images/astroteam/current/execom/SAURAV S (1).jpg', linkedIn: 'https://www.linkedin.com/in/saurav', email: 'saurav@example.com' },
+  { name: 'SAURAV', role: 'Vice Chairperson/Tech Lead', imgSrc: '/images/astroteam/current/execom/SAURAV S (1).jpg', linkedIn: 'https://www.linkedin.com/in/saurav', email: 'melethabhinav@gmail.com' },
   { name: 'FIDHA V', role: 'Vice Chairperson', imgSrc: '/images/astroteam/current/execom/FIDHA V.jpg', linkedIn: 'https://www.linkedin.com/in/fidha-v', email: 'fidha@example.com' },
   { name: 'ABHIRAMI PS', role: 'Finance Officer', imgSrc: '/images/astroteam/current/execom/ABHIRAMI.jpg', linkedIn: 'https://www.linkedin.com/in/abhirami-p-s-525a18263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', email: 'abhirami@example.com' },
   { name: 'DURGA M', role: 'Secretary', imgSrc: '/images/astroteam/current/execom/DURGA.jpg', linkedIn: 'https://www.linkedin.com/in/durga-madhusudanan-795a002a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', email: 'durga@example.com' },
@@ -34,13 +34,14 @@ const Currentexecom = () => {
                   />
                 </a>
                 {/* Email Icon */}
-                <a href={`mailto:${member.email}`}>
-                  <img
-                    src="/images/gmail-logo.png"
-                    alt="Email"
-                    className="w-4 h-4 hover:scale-110 transition-transform duration-300"
-                  />
-                </a>
+                <a href={member.email ? `mailto:${member.email}` : '#'}>
+  <img
+    src="/images/gmail-logo.png"
+    alt="Email"
+    className="w-4 h-4 hover:scale-110 transition-transform duration-300"
+  />
+</a>
+
               </div>
             </div>
           </div>
