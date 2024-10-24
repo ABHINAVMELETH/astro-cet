@@ -15,7 +15,7 @@ const Announcement = () => {
       id: 2,
       title: "Unveiling Our Technical Team!",
       image: "/images/announcements/techteam.jpeg",
-      description: "We are excited to announce the formation of our new Technical Team at AstroCET! This dedicated group is focused on advancing our exploration of the cosmos through innovative technology The Technical Team will enhance our projects, develop new tools, conduct research, and create engaging activities for our members and the community.",
+      description: "We are excited to announce the formation of our Technical Team at AstroCET! This dedicated group is focused on advancing our exploration of the cosmos through innovative technology The Technical Team will enhance our projects, develop new tools, conduct research, and create engaging activities for our members and the community.",
     },
   ];
 
