@@ -1,13 +1,13 @@
 import React from "react";
 
 const teamMembers = [
-  { name: 'NEELASHRI', role: 'CONTENT LEAD', imgSrc: '/images/astroteam/current/content/S NEELASHRI.jpg', linkedIn: 'https://www.linkedin.com/in/s-neelashri-891232317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app', email: 'naveen@example.com' },
+  { name: 'NEELASHRI', role: 'CONTENT LEAD', imgSrc: '/images/astroteam/current/content/S NEELASHRI.JPG', linkedIn: 'https://www.linkedin.com/in/s-neelashri-891232317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app', email: 'naveen@example.com' },
   { name: 'ABHINANDHA', role: 'Vice Chairperson/Tech Lead', imgSrc: '/images/astroteam/current/content/ABHINANDANA S R.jpg' },
   { name: 'ANAMIKA', role: 'Vice Chairperson', imgSrc: '/images/astroteam/current/content/ANAMIKA S.jpg' },
-  { name: 'ANURAGH', role: 'Finance Officer', imgSrc: '/images/astroteam/current/content/ANURAGH.jpg' },
+  { name: 'ANURAGH', role: 'Finance Officer', imgSrc: '/images/astroteam/current/content/ANURAGH.JPG' },
   { name: 'ASHFAAQ', role: 'Secretary', imgSrc: '/images/astroteam/current/content/ASHFAAQ.jpg' },
   { name: 'RENJITH', role: 'Marketing Head', imgSrc: '/images/astroteam/current/content/RENJITH.jpeg' },
-  { name: 'LINTO', role: 'Content Head', imgSrc: '/images/astroteam/current/content/LINTO.jpg' },
+  { name: 'LINTO', role: 'Content Head', imgSrc: '/images/astroteam/current/content/LINTO.JPG' },
   { name: 'NEHA', role: 'Program Officer', imgSrc: '/images/astroteam/current/content/NEHA.jpeg' },
   { name: 'SREEHARI', role: 'Designer', imgSrc: '/images/astroteam/current/content/SREEHARI R.jpg' },
   { name: 'ADITHYAN', role: 'Program Officer', imgSrc: '/images/astroteam/current/content/ADITHYAN.jpg' },

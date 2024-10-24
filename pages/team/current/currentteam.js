@@ -11,11 +11,11 @@ const Current=()=>{
     return(
       <div>
         <Currentexecom/>
+        <Webcurrent/>
         <Mediacurrent/>
         <Contentcurrent/>
         <Eventscurrent/>
         <Marketingcurrent/>
-        <Webcurrent/>
       </div>
       
     );
