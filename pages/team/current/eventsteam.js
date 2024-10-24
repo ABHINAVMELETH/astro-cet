@@ -3,7 +3,7 @@ import React from 'react';
 const teamMembers = [
   { name: 'SARAH ABRAHAM', role: 'MEDIA LEAD', imgSrc: '/images/astroteam/current/events/sarah.JPG', linkedIn: 'https://www.linkedin.com/in/sarah-abraham-b2740b285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', email: 'naveen@example.com' },
   { name: 'AJITH JEEJO', role: 'OUTREACH LEAD', imgSrc: '/images/astroteam/current/events/Ajith jeejo.JPEG', linkedIn: 'https://www.linkedin.com/in/sarah-abraham-b2740b285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', email: 'naveen@example.com' },
-  { name: 'MALAVIKA', role: 'Vice Chairperson', imgSrc: '/images/astroteam/current/events/MALAVIKA.jpg' },
+  { name: 'MALAVIKA', role: 'Vice Chairperson', imgSrc: '/images/astroteam/current/events/MALAVIKA.JPG' },
   { name: 'ASWIN', role: 'Finance Officer', imgSrc: '/images/astroteam/current/events/ASWIN.JPG' },
   { name: 'ARAVIND', role: 'Secretary', imgSrc: '/images/astroteam/current/events/ARAVIND.JPG' },
   { name: 'AKSHAY', role: 'Marketing Head', imgSrc: '/images/astroteam/current/events/AKSHAY.JPG' },
