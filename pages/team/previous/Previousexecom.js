@@ -1,8 +1,8 @@
 import React from 'react';
 
 const teamMembers = [
-  { name: 'CAREN', role: 'COO', imgSrc: '/images/astroteam/prev/execom/caren.jpg', linkedIn: 'https://www.linkedin.com/in/naveenvarma', email: 'naveen@example.com' },
-  { name: 'HARI', role: 'CEO', imgSrc: '/images/astroteam/prev/execom/Hari.jpg', linkedIn: 'https://www.linkedin.com/in/saurav', email: 'saurav@example.com' },
+  { name: 'CAREN', role: 'CEO', imgSrc: '/images/astroteam/prev/execom/caren.jpg', linkedIn: 'https://www.linkedin.com/in/naveenvarma', email: 'naveen@example.com' },
+  { name: 'HARI', role: 'COO', imgSrc: '/images/astroteam/prev/execom/Hari.jpg', linkedIn: 'https://www.linkedin.com/in/saurav', email: 'saurav@example.com' },
   { name: 'AKSHAY SANTHOSH', role: 'CMO', imgSrc: '/images/astroteam/prev/execom/akshay.jpg', linkedIn: 'https://www.linkedin.com/in/fidhav', email: 'fidha@example.com' },
   { name: 'JAVAD', role: 'CFO', imgSrc: '/images/astroteam/prev/execom/javad.jpg', linkedIn: 'https://www.linkedin.com/in/abhiramips', email: 'abhirami@example.com' },
   { name: 'SAURAV', role: 'Content Head', imgSrc: '/images/astroteam/prev/execom/SAURAV.jpg', linkedIn: 'https://www.linkedin.com/in/abhiramips', email: 'abhirami@example.com' },
