@@ -1,7 +1,7 @@
 import React from 'react';
 
 const teamMembers = [
-  { name: 'KENZ ES', role: 'MEDIA LEAD', imgSrc: '/images/astroteam/current/marketing/kens.jpg', linkedIn: 'https://www.linkedin.com/in/naveenvarma', email: 'naveen@example.com' },
+  { name: 'KENZ ES', role: 'MARKETING LEAD', imgSrc: '/images/astroteam/current/marketing/kens.jpg', linkedIn: 'https://www.linkedin.com/in/naveenvarma', email: 'naveen@example.com' },
   { name: 'ABHIJITH S', role: 'Vice Chairperson/Tech Lead', imgSrc: '/images/astroteam/current/marketing/ABHIJITH.webp' },
   { name: 'ASLAM', role: 'Vice Chairperson', imgSrc: '/images/astroteam/current/marketing/ASLAM.jpg' },
   { name: 'ARJUN', role: 'Marketing Head', imgSrc: '/images/astroteam/current/marketing/ARJUN M B.jpg' },
