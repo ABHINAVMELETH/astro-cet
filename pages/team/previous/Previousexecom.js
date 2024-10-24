@@ -1,17 +1,17 @@
 import React from 'react';
 
 const teamMembers = [
-  { name: 'CAREN LAURETTE', role: 'CEO', imgSrc: '/images/astroteam/prev/execom/caren.jpg', linkedIn: 'https://www.linkedin.com/in/naveenvarma', email: 'naveen@example.com' },
-  { name: 'HARIKRISHNAN S', role: 'COO', imgSrc: '/images/astroteam/prev/execom/Hari.jpg', linkedIn: 'https://www.linkedin.com/in/saurav', email: 'saurav@example.com' },
-  { name: 'AKSHAY SANTHOSH', role: 'CMO', imgSrc: '/images/astroteam/prev/execom/akshay.jpg', linkedIn: 'https://www.linkedin.com/in/fidhav', email: 'fidha@example.com' },
-  { name: 'AHSAN JAVAD', role: 'CFO', imgSrc: '/images/astroteam/prev/execom/javad.jpg', linkedIn: 'https://www.linkedin.com/in/abhiramips', email: 'abhirami@example.com' },
+  { name: 'CAREN LAURETTE', role: 'CEO', imgSrc: '/images/astroteam/prev/execom/caren.jpg', linkedIn: 'h', email: 'naveen@example.com' },
+  { name: 'HARIKRISHNAN S', role: 'COO', imgSrc: '/images/astroteam/prev/execom/Hari.jpg', linkedIn: 'https://www.linv', email: 'saurav@example.com' },
+  { name: 'AKSHAY SANTHOSH', role: 'CMO', imgSrc: '/images/astroteam/prev/execom/akshay.jpg', linkedIn: 'https://wwwv', email: 'fidha@example.com' },
+  { name: 'AHSAN JAVAD', role: 'CFO', imgSrc: '/images/astroteam/prev/execom/javad.jpg', linkedIn: 'https://wps', email: 'abhirami@example.com' },
   { name: 'SAURAV S', role: 'Content Head', imgSrc: '/images/astroteam/prev/execom/SAURAV.jpg', linkedIn: 'https://www.linkedin.com/in/abhiramips', email: 'abhirami@example.com' },
   { name: 'LAKSHMI R', role: 'Media Lead', imgSrc: '/images/astroteam/prev/execom/lekshmi.jpg', email: 'durga@example.com' },
-  { name: 'RANJANA C J', role: 'Web Lead', imgSrc: '/images/astroteam/prev/execom/ranjana.jpg', linkedIn: 'https://www.linkedin.com/in/hank', email: 'hank@example.com' },
-  { name: 'FATHIMA NIZAR', role: 'Program Officer', imgSrc: '/images/astroteam/prev/execom/fathima.jpg', linkedIn: 'https://www.linkedin.com/in/ivy', email: 'ivy@example.com' },
-  { name: 'NAVEEN VARMA', role: 'Program Officer', imgSrc: 'images/astroteam/prev/execom/naveen.jpg', linkedIn: 'https://www.linkedin.com/in/naveen-varma-539193259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', email: 'ivy@example.com' },
-  { name: 'FIDHA V', role: 'Program Officer', imgSrc: 'images/astroteam/prev/execom/FIDHA V.jpg', linkedIn: 'https://www.linkedin.com/in/ivy', email: 'ivy@example.com' },
-  { name: 'ABHIRAMI', role: 'Program Officer', imgSrc: 'images/astroteam/prev/execom/ABHIRAMI.jpg', linkedIn: 'https://www.linkedin.com/in/ivy', email: 'ivy@example.com' },
+  { name: 'RANJANA C J', role: 'Web Lead', imgSrc: '/images/astroteam/prev/execom/ranjana.jpg', linkedIn: 'https://wk', email: 'hank@example.com' },
+  { name: 'FATHIMA NIZAR', role: 'Program Officer', imgSrc: '/images/astroteam/prev/execom/fathima.jpg', linkedIn: 'https:/ivy', email: 'ivy@example.com' },
+  { name: 'NAVEEN VARMA', role: 'Program Officer', imgSrc: 'images/astroteam/prev/execom/naveen.jpg', linkedIn: 'https://www.linkin/naveen-varma-539193259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', email: 'ivy@example.com' },
+  { name: 'FIDHA V', role: 'Program Officer', imgSrc: 'images/astroteam/prev/execom/FIDHA V.jpg', linkedIn: 'https://www.linkedin.com/in/fidha-v', email: 'ivy@example.com' },
+  { name: 'ABHIRAMI', role: 'Program Officer', imgSrc: 'images/astroteam/prev/execom/ABHIRAMI.jpg', linkedIn: 'https://www.linkedin.com/in/abhirami-p-s-525a18263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', email: 'ivy@example.com' },
 ];
 
 const Previousexecom = () => {
