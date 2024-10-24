@@ -9,7 +9,6 @@ const teamMembers = [
   { name: 'NIHALA', role: 'Program Officer', imgSrc: '/images/astroteam/current/marketing/NIHALA SHERIN .jpg' },
   { name: 'JIGMATH', role: 'Designer', imgSrc: '/images/astroteam/current/marketing/JIGMAT.jpg' },
   { name: 'NITHU', role: 'Content Head', imgSrc: '/images/astroteam/current/marketing/NEETHU.jpeg' },
-  { name: 'NAYANA', role: 'Program Officer', imgSrc: '/images/astroteam/current/marketing/NAYANA.PNG' },
 ];
 
 const Marketingcurrent = () => {

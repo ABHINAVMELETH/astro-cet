@@ -5,7 +5,7 @@ const teamMembers = [
   { name: 'SAURAV', role: 'Vice Chairperson/Tech Lead', imgSrc: '/images/astroteam/current/execom/SAURAV S (1).jpg', linkedIn: 'https://www.linkedin.com/in/saurav', email: 'saurav@example.com' },
   { name: 'FIDHA V', role: 'Vice Chairperson', imgSrc: '/images/astroteam/current/execom/FIDHA V.jpg', linkedIn: 'https://www.linkedin.com/in/fidha-v', email: 'fidha@example.com' },
   { name: 'ABHIRAMI PS', role: 'Finance Officer', imgSrc: '/images/astroteam/current/execom/ABHIRAMI.jpg', linkedIn: 'https://www.linkedin.com/in/abhirami-p-s-525a18263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', email: 'abhirami@example.com' },
-  { name: 'DURGA M', role: 'Secretary', imgSrc: '/images/astroteam/current/execom/DURGA.jpg', linkedIn: 'https://www.linkedin.com/in/durgam', email: 'durga@example.com' },
+  { name: 'DURGA M', role: 'Secretary', imgSrc: '/images/astroteam/current/execom/DURGA.jpg', linkedIn: 'https://www.linkedin.com/in/durga-madhusudanan-795a002a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', email: 'durga@example.com' },
 ];
 
 const Currentexecom = () => {
