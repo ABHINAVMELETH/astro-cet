@@ -2,7 +2,7 @@ import React from 'react';
 
 const teamMembers = [
   { name: 'NAVEEN VARMA', role: 'Chairperson', imgSrc: '/images/astroteam/current/execom/NAVEEN.jpg', linkedIn: 'https://www.linkedin.com/in/naveen-varma-539193259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', email: 'naveen@example.com' },
-  { name: 'SAURAV', role: 'Vice Chairperson/Tech Lead', imgSrc: '/images/astroteam/current/execom/SAURAV S (1).jpg', linkedIn: 'https://www.linkedin.com/in/saurav', email: 'melethabhinav@gmail.com' },
+  { name: 'SAURAV', role: 'Vice Chairperson/Tech Lead', imgSrc: '/images/astroteam/current/execom/SAURAV S (1).jpg', linkedIn: 'https://www.linkedin.com/in/saurav-s-39b097258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', email: 'melethabhinav@gmail.com' },
   { name: 'FIDHA V', role: 'Vice Chairperson', imgSrc: '/images/astroteam/current/execom/FIDHA V.jpg', linkedIn: 'https://www.linkedin.com/in/fidha-v', email: 'fidha@example.com' },
   { name: 'ABHIRAMI PS', role: 'Finance Officer', imgSrc: '/images/astroteam/current/execom/ABHIRAMI.jpg', linkedIn: 'https://www.linkedin.com/in/abhirami-p-s-525a18263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', email: 'abhirami@example.com' },
   { name: 'DURGA M', role: 'Secretary', imgSrc: '/images/astroteam/current/execom/DURGA.jpg', linkedIn: 'https://www.linkedin.com/in/durga-madhusudanan-795a002a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', email: 'durga@example.com' },
@@ -11,7 +11,7 @@ const teamMembers = [
 const Currentexecom = () => {
   return (
     <div className="container mx-auto py-10">
-      <h1 className="text-4xl md:text-4xl font-bold astro-title2 mb-10 text-center mt-20 text-white">Execom</h1>
+      <h1 className="text-4xl md:text-4xl font-bold astro-title2 mb-10 text-center mt-20 text-white">ECOMM</h1>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
         {teamMembers.map((member, index) => (

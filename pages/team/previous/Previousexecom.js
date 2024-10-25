@@ -5,7 +5,7 @@ const teamMembers = [
   { name: 'HARIKRISHNAN S', role: 'COO', imgSrc: '/images/astroteam/prev/execom/Hari.jpg', linkedIn: 'https://www.linv', email: 'saurav@example.com' },
   { name: 'AKSHAY SANTHOSH', role: 'CMO', imgSrc: '/images/astroteam/prev/execom/akshay.jpg', linkedIn: 'https://wwwv', email: 'fidha@example.com' },
   { name: 'AHSAN JAVAD', role: 'CFO', imgSrc: '/images/astroteam/prev/execom/javad.jpg', linkedIn: 'https://wps', email: 'abhirami@example.com' },
-  { name: 'SAURAV S', role: 'Content Head', imgSrc: '/images/astroteam/prev/execom/SAURAV.jpg', linkedIn: 'https://www.linkedin.com/in/abhiramips', email: 'abhirami@example.com' },
+  { name: 'SAURAV S', role: 'Content Head', imgSrc: '/images/astroteam/prev/execom/SAURAV.jpg', linkedIn: 'https://www.linkedin.com/in/saurav-s-39b097258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', email: 'abhirami@example.com' },
   { name: 'LAKSHMI R', role: 'Media Lead', imgSrc: '/images/astroteam/prev/execom/lekshmi.jpg', email: 'durga@example.com' },
   { name: 'RANJANA C J', role: 'Web Lead', imgSrc: '/images/astroteam/prev/execom/ranjana.jpg', linkedIn: 'https://wk', email: 'hank@example.com' },
   { name: 'FATHIMA NIZAR', role: 'Program Officer', imgSrc: '/images/astroteam/prev/execom/fathima.jpg', linkedIn: 'https:/ivy', email: 'ivy@example.com' },
@@ -18,7 +18,7 @@ const Previousexecom = () => {
   return (
     <div className="container mx-auto py-10">
       <h1 className="text-10xl md:text-4xl font-bold astro-title2 mb-10 text-center mt-20 mb-20 text-white glow-effect hover-glow">
-        Execom
+        ECOMM
       </h1>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-8 gap-x-8">
